@@ -27,7 +27,7 @@ DB_DATABASE=nome-do-banco
 ```
 4. Execute o MySQL em um container Docker:
 ```
-docker run --name mysql -e MYSQL_ROOT_PASSWORD=xxxx -p 3306:3306 -d mysqlInstale as dependências:
+docker run --name mysql -e MYSQL_ROOT_PASSWORD=xxxx -p 3306:3306 -d mysql
 ```
 5. Instale as dependências:
 ```
