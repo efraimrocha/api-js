@@ -1,3 +1,5 @@
+/* eslint-disable linebreak-style */
+/* eslint-disable indent */
 /* eslint-disable no-undef */
 /* eslint-disable linebreak-style */
 const mysql = require('mysql2/promise');
