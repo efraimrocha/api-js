@@ -13,7 +13,7 @@ Antes de começar, certifique-se de ter os seguintes componentes instalados em s
 Configuração do Ambiente com Docker
 1. Clone o repositório:
 ```
-git clone https://github.com/seu-usuario/to-do-list-api.git
+git clone https://github.com/efraimrocha/api-nodejs.git
 ```
 2. Navegue até o diretório do projeto:
 cd api-nodejs
@@ -27,7 +27,7 @@ DB_DATABASE=nome-do-banco
 ```
 4. Execute o MySQL em um container Docker:
 ```
-docker run --name mysql -e MYSQL_ROOT_PASSWORD=xxxx -p 3306:3306 -d mysqlInstale as dependências:
+docker run --name mysql -e MYSQL_ROOT_PASSWORD=xxxx -p 3306:3306 -d mysql
 ```
 5. Instale as dependências:
 ```
