@@ -13,7 +13,7 @@ Antes de começar, certifique-se de ter os seguintes componentes instalados em s
 Configuração do Ambiente com Docker
 1. Clone o repositório:
 ```
-git clone https://github.com/seu-usuario/to-do-list-api.git
+git clone https://github.com/efraimrocha/api-nodejs.git
 ```
 2. Navegue até o diretório do projeto:
 cd api-nodejs
